@@ -1,0 +1,38 @@
+services:
+  
+  reddit_mongodb:
+    image: mongo
+    ports:
+      - 27027:27017
+  
+  reddit_post_reader:
+    build: reddit/
+    depends_on:
+      - reddit_mongodb
+    volumes:
+      - ./reddit/:/app
+
+  reddit_postgresdb:
+    image: postgres
+    ports:
+      - 5555:5432
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=reddit
+
+  reddit_etl:
+    build: etl/
+    volumes:
+      - ./etl/:/app
+    depends_on:
+      - reddit_mongodb
+      - reddit_postgresdb
+
+  reddit_bot:
+    build: bot/
+    volumes:
+      - ./bot/:/app
+    depends_on:
+      - reddit_etl
+      - reddit_postgresdb

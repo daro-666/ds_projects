@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+
+<body>
+          <h1>Recommendations:</h1>
+          <ol>
+            {% for m in movies %}
+            <li> {{m}} </li>
+            {% endfor %}
+          </ol>
+          <p>
+          <a href="/">Another round?</a>
+          </p>
+</body>
+
+</html>
