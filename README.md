@@ -7,7 +7,7 @@ In this project I explored the [Gapminder dataset](https://www.gapminder.org/dat
 Here I used [openCV](https://opencv.org/) to take pictures of objects, trained a CNN using [tensorflow](https://www.tensorflow.org/) to classify said pictures and finally combined the trained model with openCV to make live class predictions on new pictures.
 
 ## Classification (Supervised)
-Had a go at kaggles famous [Titanic dataset](https://www.kaggle.com/competitions/titanic/overview). Cleaned, selected and engineered relevant data and made survival predictions using [scikit-learns](https://scikit-learn.org/) RandomForestClassifier.
+Had a go at kaggles famous [Titanic dataset](https://www.kaggle.com/competitions/titanic/overview). Cleaned, selected and engineered relevant features and made survival predictions using several of [scikit-learns](https://scikit-learn.org/) classifiers.
 
 ## Dockerized Data Pipeline
 
