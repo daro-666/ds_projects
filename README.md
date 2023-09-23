@@ -28,7 +28,7 @@ Scraped [lyrics.com](https://www.lyrics.com/) for songtexts of a few artists, cl
 ![image](https://github.com/daro-666/ds_projects/assets/128629120/1b97acd2-7fc4-4d57-9acd-c7a2500f8757)
 
 ## Time Series Analysis
-Utilized time series analysis methods to make short term predictions on local average temperatures using data from [ecad](https://www.ecad.eu/) which unfortunately containded a lot of intermittent NA's. Compared the results from my from-the-ground-up approach with th results yielded by [statsmodels](https://www.statsmodels.org/) ARIMA model.
+Utilized time series analysis methods to make short term predictions on local average temperatures using data from [ecad](https://www.ecad.eu/) which unfortunately containded a lot of intermittent NA's. Compared the results from my from-the-ground-up approach with the results yielded by [statsmodels](https://www.statsmodels.org/) ARIMA model.
 
 ![cons_nans](https://github.com/daro-666/ds_projects/assets/128629120/55ec692d-784c-40e1-9ec1-5f9597616956)
 
