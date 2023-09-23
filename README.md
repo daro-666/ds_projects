@@ -25,8 +25,12 @@ Taught myself how to handle temporal features using kaggles [bike demand dataset
 ## Scraping & NLP
 Scraped [lyrics.com](https://www.lyrics.com/) for songtexts of a few artists, cleaned them making heavy use of *regEx* and extracted only contextually meaningful words using one of [spacy's](https://spacy.io/) nlp models. Fitted a naive bayes model to predict artists from songtext snippets an implemented said function in a CLI using *argparse*.  
 
+![image](https://github.com/daro-666/ds_projects/assets/128629120/1b97acd2-7fc4-4d57-9acd-c7a2500f8757)
+
 ## Time Series Analysis
 Utilized time series analysis methods to make short term predictions on local average temperatures using data from [ecad](https://www.ecad.eu/) which unfortunately containded a lot of intermittent NA's. Compared the results from my from-the-ground-up approach with th results yielded by [statsmodels](https://www.statsmodels.org/) ARIMA model.
+
+![cons_nans](https://github.com/daro-666/ds_projects/assets/128629120/55ec692d-784c-40e1-9ec1-5f9597616956)
 
 ## Voice Command CLI
 Wrote a python script to ease repeated voice command recordings. Transformed the recordings to the frequency domain within a [tensorflow](https://www.tensorflow.org/) preprocessing pipeline in order to train a NN to classify the voice commands. Created a CLI app to utilize the voice commands to open and close my favorite productivity apps.
@@ -35,3 +39,5 @@ Wrote a python script to ease repeated voice command recordings. Transformed the
 
 ## WebApp (Unsupervised)
 Applied methods of unsupervised learing namely nonlinear-matrix-factorization to build a movie recommender webapp using the streamlit api.
+
+![mr](https://github.com/daro-666/ds_projects/assets/128629120/778dc7af-16d9-482c-8c47-346fceb56fd7)
