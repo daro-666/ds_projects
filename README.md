@@ -38,6 +38,6 @@ Wrote a python script to ease repeated voice command recordings. Transformed the
 [Demo Video](https://drive.google.com/file/d/16pkebYiiXA6RC2bYbBr3PT-4v53DjsMx/view?usp=drive_link)
 
 ## WebApp (Unsupervised)
-Applied methods of unsupervised learing namely nonlinear-matrix-factorization to build a movie recommender webapp using the streamlit api.
+Applied methods of unsupervised learing namely non-negative-matrix-factorization to build a movie recommender webapp using the streamlit api. Movie data was taken from the [movielens dataset](https://grouplens.org/datasets/movielens/latest/)
 
 ![mr](https://github.com/daro-666/ds_projects/assets/128629120/778dc7af-16d9-482c-8c47-346fceb56fd7)
